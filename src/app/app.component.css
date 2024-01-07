@@ -1,0 +1,227 @@
+.headbar1{
+    height: 200px;
+    width: 100%;
+}
+
+.myform{
+    height: 1000px;
+    width: 1430px;
+    background-color: rgb(233, 233, 233);
+    margin: 20px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+
+}
+
+/* //Text */
+.example-form {
+    width: 300px;
+    height: 70px;
+    display: inline-block;
+    padding: 0;
+  }
+
+
+.Part1
+{
+    height: 70px;
+    width: 200px;
+    /* background-color: beige; */
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Part2
+{
+    height: 70px;
+    width: 550px;
+    /* background-color: beige; */
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.example-form2 {
+    width: 550px;
+    height: 70px;
+    display: inline-block;
+    padding: 0;
+  }
+
+  .example-full-width2 {
+    width: 100%;
+  }
+
+
+  .example-form3 {
+    width: 670px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+    left: -50px;
+    padding: 0;
+  }  
+
+
+  .example-form4 {
+    width: 550px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+    left: 58px;
+    padding: 0;
+  }    
+
+
+  #NoteText
+  {
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    border-top: 0;
+    padding-top: 0;
+    color: rgb(0,0,0,0.5);
+  }
+
+pre{
+    padding: 0;
+    margin: 1px;
+  }
+
+
+ 
+  #NoteText2
+  {
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    font-size:large;
+    font-weight: 500;
+    left: 140px;
+    top: -50px;
+    border-top: 0;
+    padding-top: 0;
+    color: rgb(0,0,0,0.7);
+  } 
+
+.selectpart1
+{
+    width: 550px;
+    position: relative;
+    left: 10px;
+}
+
+
+#NoteText3
+  {
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    font-size:small;
+    font-weight: 500;
+    left: 140px;
+    border-top: 0;
+    padding-top: 0;
+    color: rgb(0,0,0,0.7);
+  } 
+
+  .MyBlankDiv
+{
+    height: 40px;
+    width: 550px;
+    /* background-color: beige; */
+    display: inline-block;
+    margin-left: 80px;
+}
+
+
+#span1
+{
+    font-weight: bold;
+    color: black;
+}
+
+.PartCheckBox
+{
+    height: 70px;
+    width: 550px;
+    /* background-color: beige; */
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#span2
+{
+    color: rgba(0, 0, 255, 0.493);
+}
+
+#SubmitButton
+{
+    background-color: rgba(0, 0, 255);
+    border-radius: 3px;
+    height: 50px;
+    width: 70px;
+}
+
+
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(0, 0, 243,0.75); 
+    color: white;
+
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+
+  
+  .ButtonContainer
+{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 450px;
+}
+
+#span3
+{
+    color: red;
+}
+
+.NoteContainer
+{
+    position: relative;
+    top: -20px;
+}

@@ -1,0 +1,233 @@
+<div class="headbar1"></div>
+
+<div class="myform">
+
+  <div class="Part1">
+    
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>First Name*</mat-label>
+      <input matInput placeholder="Enter First Name">
+    </mat-form-field>
+  </form>
+
+  </div>
+
+  <div class="Part1">
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Middle Name</mat-label>
+        <input matInput placeholder="Enter Middle Name">
+      </mat-form-field>
+    </form>
+  </div>
+
+  <div class="Part1">
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Last Name*</mat-label>
+        <input matInput placeholder="Enter Last Name">
+      </mat-form-field>
+    </form>
+  </div>
+
+
+  <div class="Part2">
+    <form class="example-form2">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Parent's Contact Number*</mat-label>
+        <input matInput placeholder="Parent's Contact Number">
+      </mat-form-field>
+    </form>
+
+  </div>
+ 
+
+  <div class="Part2">
+    <form class="example-form3">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Phone Number (10 Digits)*</mat-label>
+        <input matInput placeholder="Phone Number">
+      </mat-form-field>
+    </form>
+
+  </div>
+
+  <div class="Part2">
+    <form class="example-form4">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Current Address*</mat-label>
+        <input matInput placeholder="Current Address">
+      </mat-form-field>
+    </form>
+
+  </div>
+
+
+  <!-- <mdb-form-control>
+    <input mdbLabel type="email" id="typeEmail" class="form-control" />
+    <label mdbInput class="form-label" for="typeEmail">Email input</label>
+  </mdb-form-control> -->
+  <div class="Part2">
+    <form class="example-form3">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Email*</mat-label>
+        <input matInput placeholder="abc@gmail.com">
+      </mat-form-field>
+    </form>
+
+  </div>
+
+
+  <div class="Part2">
+    <form class="example-form4">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Parmanent Address*</mat-label>
+        <input matInput placeholder="Parmanent Address">
+      </mat-form-field>
+    </form>
+
+  </div>
+
+
+  <div class="Part2">
+    <form class="example-form3">
+      <mat-form-field class="example-full-width2">
+        <mat-label>Education*</mat-label>
+        <input matInput placeholder="Education Eg. BTech,BCA,MCA,MCS*">
+      </mat-form-field>
+    </form>
+
+  </div>
+
+  <div id="NoteText"> 
+    <pre>Note: We may send documents at this address, so please write this
+      correctly with pincode.
+    </pre>
+    </div>
+
+
+    <div class="Part2">
+      <form class="example-form3">
+        <mat-form-field class="example-full-width2">
+          <mat-label>College/Company*</mat-label>
+          <input matInput placeholder="College/Company Name">
+        </mat-form-field>
+      </form>
+  
+    </div>
+
+
+    <div id="NoteText2"> 
+      Batch
+      </div>
+
+
+
+      <div class="Part2">
+        <mat-form-field class="selectpart1">
+          <mat-label>Select Batch</mat-label>
+          <mat-select>
+            @for (food of foods; track food) {
+              <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+    
+      </div>
+
+
+
+      <div class="Part2">
+        <form class="example-form3">
+          <mat-form-field class="example-full-width2">
+            <mat-label>Mother's Profession*</mat-label>
+            <input matInput placeholder="Mother's Profession">
+          </mat-form-field>
+        </form>
+    
+      </div>
+
+
+      <div class="Part2">
+        <form class="example-form4">
+          <mat-form-field class="example-full-width2">
+            <mat-label>Amount</mat-label>
+            <input matInput placeholder="Min : 1000">
+          </mat-form-field>
+        </form>
+    
+      </div>
+
+
+      <div class="Part2">
+        <form class="example-form3">
+          <mat-form-field class="example-full-width2">
+            <mat-label>Father's Profession*</mat-label>
+            <input matInput placeholder="Father's Profession">
+          </mat-form-field>
+        </form>
+    
+      </div>
+
+      <div id="NoteText3"> 
+      <P>Payment Mode</P> 
+      <mat-radio-group aria-label="Select an option">
+        <mat-radio-button value="1">Bank Transfer</mat-radio-button>
+        <mat-radio-button value="2">UPI</mat-radio-button>
+      </mat-radio-group>
+        </div>
+        
+        <div class="MyBlankDiv"></div>
+
+        <div id="NoteText"> 
+          <pre>Note: WhatsApp or Call Admin at 7020713938 for Bank Details.<span id="span1"> Only pay
+      FEES after calling and informing to admin! </span> 
+          </pre>
+          </div>
+
+
+          <div class="PartCheckBox">
+            <section class="example-section">
+              <mat-checkbox class="example-margin"> I have read and agree to the <span id="span2"> Terms and Conditions, Privacy Policy & Disclaimer</span> </mat-checkbox>
+            </section>
+          </div>
+          
+          <div class="MyBlankDiv"></div>
+
+
+
+          <div class="ButtonContainer">
+          <section>
+            <div class="example-label"></div>
+            <div class="example-button-row">
+              <button mat-raised-button color="primary">Primary</button>
+            </div>
+          </section>
+        </div>
+
+        <div class="NoteContainer">
+        <div id="NoteText"> 
+          <pre> <span id="span3">                                            Note: Your Registration is not complete until you pay the amount.</span> 
+          </pre>
+          </div>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
